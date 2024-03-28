@@ -20,14 +20,5 @@ module.exports = withNextra({
     locales: ["en-US"],
     defaultLocale: "en-US",
   },
-  redirects: () => {
-    return [
-      {
-        source: "/faq",
-        destination: "/faq/getting-started",
-        statusCode: 301,
-      },
-    ];
-  },
   reactStrictMode: true,
 });
