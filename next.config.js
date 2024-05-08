@@ -1,7 +1,7 @@
 const { withPlausibleProxy } = require('next-plausible')
 
 module.exports = withPlausibleProxy()({
-  customDomain: 'http://think.tsukim.io',
+  customDomain: 'https://googleisbad.wuemeli.com',
   scriptName: 'thinking',
 })
 
